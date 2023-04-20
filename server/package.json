@@ -1,0 +1,31 @@
+{
+  "name": "oauth2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sid-80/OAuth-2.0.git"
+  },
+  "author": "sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sid-80/OAuth-2.0/issues"
+  },
+  "homepage": "https://github.com/Sid-80/OAuth-2.0#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "passport": "^0.5.3",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
