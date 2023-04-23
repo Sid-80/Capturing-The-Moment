@@ -9,7 +9,6 @@ const fileupload = require("express-fileupload");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/userRoute");
 const imageRoute = require("./routes/ImageRoutes");
-const imageDBRoute = require("./routes/ImageDBroutres");
 const { default: mongoose } = require("mongoose");
 const app = express();
 
@@ -40,6 +39,5 @@ useUnifiedTopology: true,family: 4}).then(()=>{console.log("connected")}).catch(
 app.use("/auth",authRoute);
 app.use("/auth",userRoute);
 app.use("/image",imageRoute);
-app.use("/imageDB",imageDBRoute);
 
 app.listen(5000,()=>{console.log("port : 8080")})

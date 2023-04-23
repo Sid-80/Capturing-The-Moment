@@ -19,7 +19,6 @@ router.post('/uploads',
                 const image = ImageModel.create({img:result.url,caption:"123"});
                 res.json({image});
             });
-            
         } catch (e) {
             console.log(e)
         }
